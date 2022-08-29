@@ -9,16 +9,18 @@
 </head>
 <body>    
     <h1>¡Bienvenido a la página sobre nubes!</h1>
-    <section class="nubes">
+    <section id="seccion1">
         <img src="https://cdn.pixabay.com/photo/2014/08/09/15/45/sky-414199_960_720.jpg" alt="Nubes con luz de sol">
-        <h3 id="intro"><br>Desde finas volutas hasta amenazantes cumulonimbus, las nubes despiertan nuestra imaginación y desempeñan un papel fundamental para la vida en la Tierra.</h3>        
+        <h3 id="intro"><br>Desde finas volutas hasta amenazantes <a href="#cumulonimbus">cumulonimbus</a>, las nubes despiertan nuestra imaginación y desempeñan un papel fundamental para la vida en la Tierra.</h3>        
         <h2>¿Qué son?</h2>
-        <p>Las nubes se forman por el enfriamiento del aire. Esto provoca la condensación del vapor de agua, invisible, en gotitas o partículas de hielo visibles. <br>Las partículas son tan pequeñas que las sostienen en el aire corrientes verticales leves.</p>
-    </section>     
-    <section class="niveles">
+        <p>Las nubes se forman por el enfriamiento del aire. Esto provoca la condensación del vapor de agua, invisible, en gotitas o partículas de hielo visibles.
+            <br>Las partículas son tan pequeñas que las sostienen en el aire corrientes verticales leves.
+            <br><br>Las nubes se forman generalmente en la troposfera, la capa de la atmósfera más cercana a la Tierra. A medida que se elevan y descienden, pueden aparecer en infinitas variaciones.</p>
+    </section> 
+    <section id="seccion_niveles">
         <img src="/IMG/niveles_nubes.jpg" alt="Niveles de las nubes">
         <table>
-            <caption class="title">Niveles de las nubes</caption>
+            <caption class="title"><a href="https://cloudatlas.wmo.int/es/clouds-definitions.html" target="_blank">Niveles de las nubes</a></caption>
             <tr>
                 <th>Nivel</th>
                 <th>Géneros</th>
@@ -28,7 +30,7 @@
                 <td>Alto</td>
                 <td>
                     <ul>
-                        <li>Cirrus</li>
+                        <li><a href="#cirrus">Cirrus</a></li>
                         <li>Cirrocumulus</li>
                         <li>Cirrostratus</li>
                     </ul>                
@@ -39,7 +41,7 @@
                 <td>Medio</td>
                 <td>
                     <ul>
-                        <li>Altocumulus</li>
+                        <li><a href="#altocumulus">Altocumulus</a></li>
                         <li>Altostratus</li>
                         <li>Nimbostratus</li>
                     </ul>                
@@ -53,12 +55,40 @@
                         <li>Stratus</li>
                         <li>Stratocumulus</li>
                         <li>Cumulus</li>
-                        <li>Cumulonimbus</li>
+                        <li><a href="#cumulonimbus">Cumulonimbus</a></li>
                     </ul>                
                 </td>
                 <td>Desde la superficie de la Tierra hasta 2 km</td>
             </tr>           
         </table>
-    </section>    
+    </section>
+    <section id="seccion_composicion">
+        <h2>Composición de una nube</h2>
+        <p>Los componentes básicos de las nubes son el agua y las partículas (de polvo, suciedad o sal marina) conocidas como núcleos de condensación de las nubes. Estos núcleos están por todas partes en la atmósfera. Atraen el vapor de agua y, a medida que ascienden, el vapor se condensa para formar agua líquida o hielo, lo que da lugar a la creación de diminutos glóbulos llamados gotas de nube.
+            <br><br>Mucho más pequeñas que las gotas de lluvia, las gotas de las nubes son extremadamente ligeras y se acumulan mientras flotan, mezclándose con el aire para crear las formaciones esponjosas que vemos suspendidas en el cielo. </p>
+    </section>
+    <section id="seccion_nubes">
+        <div class="nube">
+            <h4 id="cirrus">Cirrus</h4>
+            <p>Los cirros están formados por cristales de hielo y tienen un aspecto fino, blanco y difuso.</p>
+            <img src="/IMG/cirrus.jpg" alt="Nube tipo cirrus">
+        </div>
+        <div class="nube">
+            <h4 id="altocumulus">Altocumulus</h4>
+            <p>Las nubes altocumulus están llenas de agua líquida, pero generalmente no producen lluvia. Son irregulares y a menudo aparecen en forma de ondas o hileras.</p>
+            <img src="/IMG/altocumulus.jpg" alt="Nube tipo altocumulus">
+        </div>
+        <div class="nube">
+            <h4 id="cumulonimbus">Cumulonimbus</h4>
+            <p>Las nubes cumulonimbus son pesadas y densas; tienden a crecer de forma espectacular y suelen ser precursoras de tormentas eléctricas, granizo o tornados.</p>
+            <img src="/IMG/cumulonimbus.jpg" alt="Nube tipo cumulonimbus">
+        </div>
+    </section>
+    <section id="seccion_importancia">
+        <h2>Su importancia</h2>
+        <p>Independientemente de su forma o tamaño, las nubes son esenciales para la vida en la Tierra. Durante el día nos ayudan a protegernos del intenso calor del sol. Por la noche actúan como una manta para evitar que nos enfriemos demasiado. También proporcionan precipitaciones y señalan los cambios y patrones meteorológicos.
+            <br><br>No obstante, <a href="https://cms-es.ngeo.com/espacio/2020/09/hallazgo-de-posibles-indicios-de-vida-en-venus-fosfina" target="_blank">las nubes no son exclusivas de nuestro planeta.</a> Los astrofísicos que estudian las atmósferas de otros planetas saben que Marte, por ejemplo, tiene nubes similares a las nuestras.
+            <br>Creen que seguir aprendiendo sobre el clima de otros mundos nos ayudará a comprender mejor (y predecir) el nuestro.</p>
+    </section>     
 </body>
 </html>

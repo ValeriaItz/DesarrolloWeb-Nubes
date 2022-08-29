@@ -24,12 +24,12 @@ p {
 #intro {    
     margin-left: 315px;
 }
-.nubes img{
+#seccion1 img{
     float: left;
     max-width: 300px;    
     margin-right: 15px;
 }
-.nubes {
+#seccion1 {
     margin-top: 20px;
     margin-left: 60px;
     margin-right: 60px;
@@ -38,10 +38,10 @@ p {
 .title {
     color: blue;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 } 
 table, th, td {
-    border: 2px solid blue;
+    border: 1px solid blue;
     text-align: center;
     font-size: 13px;
 }
@@ -49,10 +49,40 @@ table {
     float: left;
     margin-top: 20px;
     margin-left: 60px;
+    width: 30%;
 }  
-.niveles img {
+#seccion_niveles img {
     float: right;
-    max-width: 500px;
-    margin-top: 50px;
-    margin-right: 15px;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+#seccion_composicion {
+    float: right;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#seccion_nubes {
+    display: grid;
+    grid-template-columns: auto auto auto;    
+    float: left;
+    margin-top: 10px;
+    margin-right: 35px;
+    margin-left: 60px;       
+}
+.nube {
+    margin-right: 25px;
+}
+.nube img {        
+    width: 90%;     
+}
+
+#seccion_importancia {
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
