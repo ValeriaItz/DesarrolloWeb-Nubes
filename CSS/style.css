@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: blue;
+    font-size: 23px;
+    text-align: center;
+}
+h2 {
+    color: blueviolet;
+    font-size: 18px;
+}
+h3 {
+    color: darkblue;
+    font-size: 16px;
+}
+p {
+    color: black;
+    font-size: 14px;
+}
+
+#intro {    
+    margin-left: 315px;
+}
+.nubes img{
+    float: left;
+    max-width: 300px;    
+    margin-right: 15px;
+}
+.nubes {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.title {
+    color: blue;
+    font-size: 16px;
+    margin-bottom: 10px;
+} 
+table, th, td {
+    border: 2px solid blue;
+    text-align: center;
+    font-size: 13px;
+}
+table {
+    float: left;
+    margin-top: 20px;
+    margin-left: 60px;
+}  
+.niveles img {
+    float: right;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-right: 15px;
+}
